@@ -1,297 +1,308 @@
-{
-    "chefs": [
-        {
-            "picture": "https://example.com/chef1.jpg",
-            "name": "Chef John",
-            "years_of_experience": 10,
-            "num_recipes": 5,
-            "recipes": [
-                {
-                    "name": "Chicken Parmesan",
-                    "picture": "https://example.com/chicken_parmesan.jpg",
-                    "ingredients": [
-                        "chicken",
-                        "breadcrumbs",
-                        "parmesan",
-                        "tomato sauce",
-                        "mozzarella"
-                    ],
-                    "cooking_method": "Preheat oven to 375 degrees F. Dip chicken in beaten egg, coat with breadcrumbs and parmesan, then bake for 25 minutes. Top with tomato sauce and mozzarella, then bake for another 5-10 minutes.",
-                    "likes": 1000,
-                    "rating": 4.5
-                },
-                {
-                    "name": "Beef Stroganoff",
-                    "picture": "https://example.com/beef_stroganoff.jpg",
-                    "ingredients": [
-                        "beef",
-                        "onion",
-                        "mushrooms",
-                        "sour cream",
-                        "noodles"
-                    ],
-                    "cooking_method": "Brown beef and onion, then add mushrooms and cook until tender. Add sour cream and serve over noodles.",
-                    "likes": 800,
-                    "rating": 4.2
-                },
-                {
-                    "name": "Pesto Pasta",
-                    "picture": "https://example.com/pesto_pasta.jpg",
-                    "ingredients": [
-                        "pasta",
-                        "pesto",
-                        "cherry tomatoes",
-                        "parmesan"
-                    ],
-                    "cooking_method": "Cook pasta according to package instructions. Toss with pesto, cherry tomatoes, and parmesan.",
-                    "likes": 1200,
-                    "rating": 4.7
-                }
-            ]
-        },
-        {
-            "picture": "https://example.com/chef2.jpg",
-            "name": "Chef Jane Doe",
-            "years_of_experience": 7,
-            "num_recipes": 4,
-            "recipes": [
-                {
-                    "name": "Grilled Cheese",
-                    "picture": "https://example.com/grilled_cheese.jpg",
-                    "ingredients": [
-                        "bread",
-                        "cheese",
-                        "butter"
-                    ],
-                    "cooking_method": "Butter bread and place cheese between slices. Grill until bread is toasted and cheese is melted.",
-                    "likes": 1500,
-                    "rating": 4.9
-                },
-                {
-                    "name": "Tomato Soup",
-                    "picture": "https://example.com/tomato_soup.jpg",
-                    "ingredients": [
-                        "tomatoes",
-                        "onion",
-                        "garlic",
-                        "vegetable broth"
-                    ],
-                    "cooking_method": "Saute onion and garlic, then add tomatoes and vegetable broth. Simmer for 20 minutes, then blend until smooth.",
-                    "likes": 900,
-                    "rating": 4.3
-                },
-                {
-                    "name": "Roast Chicken",
-                    "picture": "https://example.com/roast_chicken.jpg",
-                    "ingredients": [
-                        "chicken",
-                        "lemon",
-                        "garlic",
-                        "rosemary"
-                    ],
-                    "cooking_method": "Stuff chicken with lemon, garlic, and rosemary. Roast in oven at 375 degrees F for 1-2 hours.",
-                    "likes": 1100,
-                    "rating": 4.6
-                }
-            ]
-        },
-        {
-            "picture": "https://example.com/chef3.jpg",
-            "name": "Chef Maria Rodriguez",
-            "years_of_experience": 15,
-            "num_recipes": 7,
-            "recipes": [
-                {
-                    "name": "Fish Tacos",
-                    "picture": "https://example.com/fish_tacos.jpg",
-                    "ingredients": [
-                        "fish",
-                        "tortillas",
-                        "cabbage",
-                        "lime",
-                        "salsa"
-                    ],
-                    "cooking_method": "Grill or fry fish, then serve in tortillas with cabbage, lime, and salsa.",
-                    "likes": 2000,
-                    "rating": 4.8
-                },
-                {
-                    "name": "Enchiladas",
-                    "picture": "https://example.com/enchiladas.jpg",
-                    "ingredients": [
-                        "chicken",
-                        "tortillas",
-                        "cheese",
-                        "salsa",
-                        "sour cream"
-                    ],
-                    "cooking_method": "Roll chicken and cheese in tortillas, then bake with salsa and top with sour cream.",
-                    "likes": 1800,
-                    "rating": 4.6
-                },
-                {
-                    "name": "Mole Sauce",
-                    "picture": "https://example.com/mole_sauce.jpg",
-                    "ingredients": [
-                        "chiles",
-                        "spices",
-                        "nuts",
-                        "tomatoes",
-                        "chocolate"
-                    ],
-                    "cooking_method": "Toast chiles, spices, and nuts, then blend with tomatoes and chocolate. Simmer for 30 minutes.",
-                    "likes": 1500,
-                    "rating": 4.7
-                }
-            ]
-        },
-        {
-            "picture": "https://example.com/chef4.jpg",
-            "name": "Chef Michael Kim",
-            "years_of_experience": 12,
-            "num_recipes": 6,
-            "recipes": [
-                {
-                    "name": "Kimchi Fried Rice",
-                    "picture": "https://example.com/kimchi_fried_rice.jpg",
-                    "ingredients": [
-                        "rice",
-                        "kimchi",
-                        "eggs",
-                        "soy sauce",
-                        "sesame oil"
-                    ],
-                    "cooking_method": "Cook rice, then stir-fry with kimchi, eggs, soy sauce, and sesame oil.",
-                    "likes": 1200,
-                    "rating": 4.5
-                },
-                {
-                    "name": "Bibimbap",
-                    "picture": "https://example.com/bibimbap.jpg",
-                    "ingredients": [
-                        "rice",
-                        "vegetables",
-                        "beef",
-                        "eggs",
-                        "gochujang"
-                    ],
-                    "cooking_method": "Cook rice and top with sauteed vegetables, beef, eggs, and gochujang.",
-                    "likes": 1400,
-                    "rating": 4.7
-                },
-                {
-                    "name": "Korean Fried Chicken",
-                    "picture": "https://example.com/korean_fried_chicken.jpg",
-                    "ingredients": [
-                        "chicken",
-                        "flour",
-                        "cornstarch",
-                        "soy sauce",
-                        "gochujang"
-                    ],
-                    "cooking_method": "Coat chicken in flour and cornstarch, then fry until crispy. Toss with soy sauce and gochujang.",
-                    "likes": 1600,
-                    "rating": 4.8
-                }
-            ]
-        },
-        {
-            "picture": "https://example.com/chef1.jpg",
-            "name": "Chef Smith",
-            "years_of_experience": 20,
-            "num_recipes": 8,
-            "recipes": [
-                {
-                    "name": "Beef Wellington",
-                    "picture": "https://example.com/beef_wellington.jpg",
-                    "ingredients": [
-                        "beef tenderloin",
-                        "puff pastry",
-                        "mushrooms",
-                        "prosciutto",
-                        "egg"
-                    ],
-                    "cooking_method": "Sear beef, then wrap in prosciutto and mushrooms. Wrap in puff pastry and brush with egg wash. Bake for 30 minutes.",
-                    "likes": 2500,
-                    "rating": 4.9
-                },
-                {
-                    "name": "Lobster Bisque",
-                    "picture": "https://example.com/lobster_bisque.jpg",
-                    "ingredients": [
-                        "lobster",
-                        "heavy cream",
-                        "butter",
-                        "shallots",
-                        "thyme"
-                    ],
-                    "cooking_method": "Sweat shallots and thyme in butter, then add lobster and cream. Simmer for 20 minutes, then puree.",
-                    "likes": 2200,
-                    "rating": 4.8
-                },
-                {
-                    "name": "Ratatouille",
-                    "picture": "https://example.com/ratatouille.jpg",
-                    "ingredients": [
-                        "eggplant",
-                        "zucchini",
-                        "tomatoes",
-                        "onions",
-                        "garlic"
-                    ],
-                    "cooking_method": "Saute onions and garlic, then add sliced eggplant and zucchini. Top with sliced tomatoes and bake for 30 minutes.",
-                    "likes": 2000,
-                    "rating": 4.7
-                }
-            ]
-        },
-        {
-            "picture": "https://example.com/chef2.jpg",
-            "name": "Chef Emily Chen",
-            "years_of_experience": 10,
-            "num_recipes": 5,
-            "recipes": [
-                {
-                    "name": "Kung Pao Chicken",
-                    "picture": "https://example.com/kung_pao_chicken.jpg",
-                    "ingredients": [
-                        "chicken",
-                        "peanuts",
-                        "chiles",
-                        "soy sauce",
-                        "hoisin sauce"
-                    ],
-                    "cooking_method": "Stir-fry chicken, peanuts, and chiles. Add soy sauce and hoisin sauce.",
-                    "likes": 1800,
-                    "rating": 4.6
-                },
-                {
-                    "name": "Dan Dan Noodles",
-                    "picture": "https://example.com/dan_dan_noodles.jpg",
-                    "ingredients": [
-                        "ground pork",
-                        "noodles",
-                        "soy sauce",
-                        "sesame oil",
-                        "chili oil"
-                    ],
-                    "cooking_method": "Cook noodles, then top with ground pork, soy sauce, sesame oil, and chili oil.",
-                    "likes": 1600,
-                    "rating": 4.5
-                },
-                {
-                    "name": "Mapo Tofu",
-                    "picture": "https://example.com/mapo_tofu.jpg",
-                    "ingredients": [
-                        "tofu",
-                        "ground pork",
-                        "chiles",
-                        "soy sauce",
-                        "doubanjiang"
-                    ],
-                    "cooking_method": "Stir-fry ground pork and chiles. Add tofu, soy sauce, and doubanjiang. Simmer."
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "picture": "https://www.allrecipes.com/thmb/5mOAV55HEwckr9vE1ErUMglrPgQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fm20-chef-biscuitsflour_1244-cf3ae6002ef94ec5af063333573d1d21.jpg",
+        "name": "Chef John",
+        "years_of_experience": 10,
+        "num_recipes": 5,
+        "bio": "Chef John is a British chef, restaurateur, writer, and television personality. He has owned and operated a series of restaurants, and has been awarded multiple Michelin stars. Ramsay is also known for his fiery personality and expletive-laden rants on television shows such as 'Hell's Kitchen' and 'Kitchen Nightmares'.",
+        "likes": 1000,
+        "recipes": [
+            {
+                "name": "Chicken Parmesan",
+                "picture": "https://www.skinnytaste.com/wp-content/uploads/2012/09/skinny-chicken-parmigiana-550x733.jpg",
+                "ingredients": [
+                    "chicken",
+                    "breadcrumbs",
+                    "parmesan",
+                    "tomato sauce",
+                    "mozzarella"
+                ],
+                "cooking_method": "Preheat oven to 375 degrees F. Dip chicken in beaten egg, coat with breadcrumbs and parmesan, then bake for 25 minutes. Top with tomato sauce and mozzarella, then bake for another 5-10 minutes.",
+
+                "rating": 4.5
+            },
+            {
+                "name": "Beef Stroganoff",
+                "picture": "https://www.100daysofrealfood.com/wp-content/uploads/2022/05/Beef-Stroganoff-800x1067.jpeg",
+                "ingredients": [
+                    "beef",
+                    "onion",
+                    "mushrooms",
+                    "sour cream",
+                    "noodles"
+                ],
+                "cooking_method": "Brown beef and onion, then add mushrooms and cook until tender. Add sour cream and serve over noodles.",
+                "rating": 4.2
+            },
+            {
+                "name": "Pesto Pasta",
+                "picture": "https://www.cookingclassy.com/wp-content/uploads/2022/02/pesto-pasta-1-600x900.jpg",
+                "ingredients": [
+                    "pasta",
+                    "pesto",
+                    "cherry tomatoes",
+                    "parmesan"
+                ],
+                "cooking_method": "Cook pasta according to package instructions. Toss with pesto, cherry tomatoes, and parmesan.",
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "picture": "https://images.squarespace-cdn.com/content/v1/5f063187ead18a2e98ba7f9b/1641509339993-6TTOP5AGMGV8WSORFOEW/Chef+Jane+Peang+of+Jeju+Noodle+Bar+%2814%29.jpg?format=500w",
+        "name": "Chef Jane Doe",
+        "years_of_experience": 7,
+        "num_recipes": 4,
+        "bio": "Chef Jane Doe is an japanease chef, author, and television personality. She is best known for her cooking show 'Barefoot Contessa', which focuses on simple and elegant home cooking. Garten has written multiple cookbooks, and has won several Emmy Awards for her television work.",
+        "likes": 1500,
+        "recipes": [
+            {
+                "name": "Grilled Cheese",
+                "picture": "https://www.allrecipes.com/thmb/atSF_xcBA_yoDif-itILDF3wYKw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/125434-GrilledCheeseoftheGods-mfs-3x2-067-267097af4d0b446ab646bba044445147.jpg",
+                "ingredients": [
+                    "bread",
+                    "cheese",
+                    "butter"
+                ],
+                "cooking_method": "Butter bread and place cheese between slices. Grill until bread is toasted and cheese is melted.",
+                "rating": 4.9
+            },
+            {
+                "name": "Tomato Soup",
+                "picture": "https://www.allrecipes.com/thmb/odV3ZiB5H-hWCLi2SV4lNdtJLhs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/39544-Garden-Fresh-Tomato-Soup-DDMFS-4x3-b8e94cf7ab8e42f4b79042fc0df55546.jpg",
+                "ingredients": [
+                    "tomatoes",
+                    "onion",
+                    "garlic",
+                    "vegetable broth"
+                ],
+                "cooking_method": "Saute onion and garlic, then add tomatoes and vegetable broth. Simmer for 20 minutes, then blend until smooth.",
+                "rating": 4.3
+            },
+            {
+                "name": "Roast Chicken",
+                "picture": "https://www.jocooks.com/wp-content/uploads/2021/11/roast-chicken-1-22-730x913.jpg",
+                "ingredients": [
+                    "chicken",
+                    "lemon",
+                    "garlic",
+                    "rosemary"
+                ],
+                "cooking_method": "Stuff chicken with lemon, garlic, and rosemary. Roast in oven at 375 degrees F for 1-2 hours.",
+                "rating": 4.6
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "picture": "https://bloximages.chicago2.vip.townnews.com/tucson.com/content/tncms/assets/v3/editorial/3/fa/3fa4c2b2-ce22-11eb-bd26-7b6d765f037b/60c91ee045ae1.image.jpg?resize=500%2C667",
+        "name": "Chef Maria Rodriguez",
+        "years_of_experience": 15,
+        "num_recipes": 7,
+        "bio": "Chef Maria Rodriguez is an Italian chef and restaurateur. He is the owner and head chef of Osteria Francescana, a three-Michelin-starred restaurant in Modena, Italy. Bottura is known for his innovative and avant-garde approach to Italian cuisine, and has been named the world's best chef by 'The World's 50 Best Restaurants' list.",
+        "likes": 2000,
+        "recipes": [
+            {
+                "name": "Fish Tacos",
+                "picture": "https://www.allrecipes.com/thmb/-IG4jUnBc3rQYhL1fMT1XERLiIM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/53729-fish-tacos-DDMFS-4x3-b5547c67c6f0432da06ad8f905e82c1e.jpg",
+                "ingredients": [
+                    "fish",
+                    "tortillas",
+                    "cabbage",
+                    "lime",
+                    "salsa"
+                ],
+                "cooking_method": "Grill or fry fish, then serve in tortillas with cabbage, lime, and salsa.",
+                "rating": 4.8
+            },
+            {
+                "name": "Enchiladas",
+                "picture": "https://hips.hearstapps.com/hmg-prod/images/enchiladas-verdes-recipe-1-1659536987.jpg?crop=1xw:1xh;center,top&resize=1200:*",
+                "ingredients": [
+                    "chicken",
+                    "tortillas",
+                    "cheese",
+                    "salsa",
+                    "sour cream"
+                ],
+                "cooking_method": "Roll chicken and cheese in tortillas, then bake with salsa and top with sour cream.",
+                "likes": 1800,
+                "rating": 4.6
+            },
+            {
+                "name": "Mole Sauce",
+                "picture": "https://www.saveur.com/uploads/2020/05/01/CW7VLT3G2NAWZPC4WKAQ5CIESE.jpg?auto=webp&auto=webp&optimize=high&quality=70&width=720&dpr=1",
+                "ingredients": [
+                    "chiles",
+                    "spices",
+                    "nuts",
+                    "tomatoes",
+                    "chocolate"
+                ],
+                "cooking_method": "Toast chiles, spices, and nuts, then blend with tomatoes and chocolate. Simmer for 30 minutes.",
+                "likes": 1500,
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "picture": "https://www.bbcgoodfoodshow.com/wp-content/uploads/2022/02/Michel-Roux-Big-Kitchen-BBC-Good-Food-Show-Summer-2022.jpg",
+        "name": "Chef Michael Kim",
+        "years_of_experience": 12,
+        "num_recipes": 6,
+        "bio": "Chef Michael Kim is an Italian chef and restaurateur. He is the owner and head chef of Osteria Francescana, a three-Michelin-starred restaurant in Modena, Italy. Bottura is known for his innovative and avant-garde approach to Italian cuisine, and has been named the world's best chef by 'The World's 50 Best Restaurants' list.",
+      
+        "likes": 1200,
+        "recipes": [
+            {
+                "name": "Kimchi Fried Rice",
+                "picture": "http://orchardstreetkitchen.com/wp-content/uploads/2014/08/IMG_98981.jpg",
+                "ingredients": [
+                    "rice",
+                    "kimchi",
+                    "eggs",
+                    "soy sauce",
+                    "sesame oil"
+                ],
+                "cooking_method": "Cook rice, then stir-fry with kimchi, eggs, soy sauce, and sesame oil.",
+                "rating": 4.5
+            },
+            {
+                "name": "Bibimbap",
+                "picture": "https://www.allrecipes.com/thmb/qK_4-b4KkWEcUw44nprldp7mkuo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/228240-BibimbapKoreanRiceWithMixedVegtables-ddmfs-4X3-0667-70784fdd28904e2daab245c029f978ee.jpg",
+                "ingredients": [
+                    "rice",
+                    "vegetables",
+                    "beef",
+                    "eggs",
+                    "gochujang"
+                ],
+                "cooking_method": "Cook rice and top with sauteed vegetables, beef, eggs, and gochujang.",
+                "likes": 1400,
+                "rating": 4.7
+            },
+            {
+                "name": "Korean Fried Chicken",
+                "picture": "https://hips.hearstapps.com/hmg-prod/images/korean-fried-chicken-1648742849.jpeg?crop=1.00xw:0.846xh;0,0.0769xh&resize=980:*",
+                "ingredients": [
+                    "chicken",
+                    "flour",
+                    "cornstarch",
+                    "soy sauce",
+                    "gochujang"
+                ],
+                "cooking_method": "Coat chicken in flour and cornstarch, then fry until crispy. Toss with soy sauce and gochujang.",
+                "likes": 1600,
+                "rating": 4.8
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "picture": "https://s6856.pcdn.co/wp-content/uploads/2019/01/CMS20181-1500x2250.jpg",
+        "name": "Chef Smith",
+        "years_of_experience": 20,
+        "num_recipes": 8,
+        "bio": "Chef Smith is a British chef, restaurateur, writer, and television personality. He has owned and operated a series of restaurants, and has been awarded multiple Michelin stars. Ramsay is also known for his fiery personality and expletive-laden rants on television shows such as 'Hell's Kitchen' and 'Kitchen Nightmares'.",
+      
+        "likes": 2500,
+        "recipes": [
+            {
+                "name": "Beef Wellington",
+                "picture": "https://www.seriouseats.com/thmb/K0PFOc5XZLwaSaFAMrtS1dXq-9o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-ultimate-beef-wellington-recipe-step-17_edited-7d3dd38835a34be2bf320848b2d6d292.jpg",
+                "ingredients": [
+                    "beef tenderloin",
+                    "puff pastry",
+                    "mushrooms",
+                    "prosciutto",
+                    "egg"
+                ],
+                "cooking_method": "Sear beef, then wrap in prosciutto and mushrooms. Wrap in puff pastry and brush with egg wash. Bake for 30 minutes.",
+                "rating": 4.9
+            },
+            {
+                "name": "Lobster Bisque",
+                "picture": "https://princeedwardislandseafood.com/wp-content/uploads/2021/02/Lobster-Bisque-620x380.jpg",
+                "ingredients": [
+                    "lobster",
+                    "heavy cream",
+                    "butter",
+                    "shallots",
+                    "thyme"
+                ],
+                "cooking_method": "Sweat shallots and thyme in butter, then add lobster and cream. Simmer for 20 minutes, then puree.",
+                "likes": 2200,
+                "rating": 4.8
+            },
+            {
+                "name": "Ratatouille",
+                "picture": "https://keeshaskitchen.com/wp-content/uploads/2022/12/Remy-Ratatouille-Recipe..jpg",
+                "ingredients": [
+                    "eggplant",
+                    "zucchini",
+                    "tomatoes",
+                    "onions",
+                    "garlic"
+                ],
+                "cooking_method": "Saute onions and garlic, then add sliced eggplant and zucchini. Top with sliced tomatoes and bake for 30 minutes.",
+                "likes": 2000,
+                "rating": 4.7
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "picture": "https://shandeeland.com/wp-content/uploads/2021/02/Chef-Emily-Ellyn.png",
+        "name": "Chef Emily Ellyn",
+        "years_of_experience": 10,
+        "bio": "Chef Emily Ellyn is an American chef, author, and television personality. She is best known for her cooking show 'Barefoot Contessa', which focuses on simple and elegant home cooking. Garten has written multiple cookbooks, and has won several Emmy Awards for her television work.",
+      
+        "num_recipes": 5,
+        
+        "likes": 1800,
+        "recipes": [
+            {
+                "name": "Kung Pao Chicken",
+                "picture": "https://www.seriouseats.com/thmb/QhIPu-MMaW7DOXgfOoXfZ3XJo5g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2010__06__2021-02-12-Real-Deal-Kung-Pao-Chicken-MHOM-21-d8de1c4b127a4dc7b6d9e43e4b18a9e8.jpg",
+                "ingredients": [
+                    "chicken",
+                    "peanuts",
+                    "chiles",
+                    "soy sauce",
+                    "hoisin sauce"
+                ],
+                "cooking_method": "Stir-fry chicken, peanuts, and chiles. Add soy sauce and hoisin sauce.",
+                "rating": 4.6
+            },
+            {
+                "name": "Dan Dan Noodles",
+                "picture": "https://www.seriouseats.com/thmb/Zg6G_mWFnUXeWhXpkD4QQKPd4rg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2013__02__20130221-vegan-dan-dan-mien-noodles-1-a06c259c753d43e28b9c6ed740cba873.jpg",
+                "ingredients": [
+                    "ground pork",
+                    "noodles",
+                    "soy sauce",
+                    "sesame oil",
+                    "chili oil"
+                ],
+                "cooking_method": "Cook noodles, then top with ground pork, soy sauce, sesame oil, and chili oil.",
+                "likes": 1600,
+                "rating": 4.5
+            },
+            {
+                "name": "Mapo Tofu",
+                "picture": "https://i2.wp.com/blog.themalamarket.com/wp-content/uploads/2022/03/vegan-mapo-tofu-25.jpg?resize=1024%2C683&ssl=1",
+                "ingredients": [
+                    "tofu",
+                    "ground pork",
+                    "chiles",
+                    "soy sauce",
+                    "doubanjiang"
+                ],
+                "cooking_method": "Stir-fry ground pork and chiles. Add tofu, soy sauce, and doubanjiang. Simmer."
+            }
+        ]
+    }
+]
