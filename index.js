@@ -34,12 +34,20 @@ const chefs = require("./data.json");
 app.get('/', (req , res) => {
     res.json({ message: "hello Server"});
 });
-app.get('/chefs/:id', (req, res) => {
-    const id = req.params.id;
-    console.log(id);
-    const selectedChefs = chefs.find(c => c.id ===id);
-    res.send(selectedChefs);
-})
+
+app.get("/chefs/:id", (req, res) => {
+    console.log(req.params);
+    const data = chefs.find((c) => c.id == req.params.id);
+  
+    res.send(
+      data
+        ? data
+        : {
+            status: 400,
+            message: "No Data Found",
+          }
+    );
+  });
 
 app.get('/chefs', (req, res) => {
     res.send( chefs );
